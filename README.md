@@ -28,6 +28,20 @@ or npm:
 npm install https://github.com/TheLave/react-native-document-scanner/ --save
 ```
 
+### Dependency
+
+Install the dependency using either yarn:
+
+```sh
+yarn add react-native-permissions
+```
+
+or npm:
+
+```sh
+npm install react-native-permissions --save
+```
+
 Remember, this library uses your device's camera, **it cannot run on a simulator** and you must request **camera permission** by your own.
 
 ### iOS Only
