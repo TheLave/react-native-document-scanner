@@ -1,7 +1,5 @@
 ![Demo gif](https://raw.githubusercontent.com/Michaelvilleneuve/react-native-document-scanner/master/images/demo.gif)
 
-# `@woonivers/react-native-document-scanner`
-
 [![CircleCI Status](https://img.shields.io/circleci/project/github/Woonivers/react-native-document-scanner/master.svg)](https://circleci.com/gh/Woonivers/workflows/react-native-document-scanner/tree/master) ![Supports Android and iOS](https://img.shields.io/badge/platforms-android%20|%20ios%20-lightgrey.svg) ![MIT License](https://img.shields.io/npm/l/@react-native-community/netinfo.svg)
 
 Live document detection library. Returns either a URI of the captured image, allowing you to easily store it or use it as you wish!
