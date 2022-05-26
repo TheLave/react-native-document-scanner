@@ -42,8 +42,8 @@ public class ImageProcessor extends Handler {
     private static final String TAG = "ImageProcessor";
     private final OpenNoteCameraView mMainActivity;
     private boolean mBugRotate;
-    private double colorGain = 1; // contrast
-    private double colorBias = 10; // bright
+    private double colorGain = 3; // contrast
+    private double colorBias = 4; // bright
     private Size mPreviewSize;
     private Point[] mPreviewPoints;
     private int numOfSquares = 0;
@@ -351,7 +351,6 @@ public class ImageProcessor extends Handler {
     }
 
     private void enhanceDocument(Mat src) {
-        Imgproc.cvtColor(src, src, Imgproc.COLOR_RGBA2GRAY);
         src.convertTo(src, CvType.CV_8UC1, colorGain, colorBias);
     }
 
